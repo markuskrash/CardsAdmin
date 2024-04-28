@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const mainRoute = require('./routes/main');
 const gamesRouter = require('./routes/games');
-const cors = require("./controllers/cors");
+const cors = require("./middlewares/cors");
 
 
 
